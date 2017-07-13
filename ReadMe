@@ -1,0 +1,24 @@
+==================
+W. Bukhsh
+Jan 2015
+wbukhsh@gmail.com
+==================
+
+This is a wrapper around the Python package Pypower, for simulating outages in power system network. It has a dependency on PYpower. Pypower can be downloaded from the following link:
+
+https://pypi.python.org/pypi/PYPOWER/4.0.0
+
+"run_file.py" is the top script where testcase in PyPower format is
+declared.
+
+Two data files are required to simulate outages and they are:
+
+imout.py: data file for outages. Bus, branch and generator outage can be
+simulated.
+
+tol_pf_sol.py : data file for load flow tolerances. If load flow
+converges then the solution is checked against the given tolerances.
+
+results are stored in the folder results.
+Enjoy!
+
